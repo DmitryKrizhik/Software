@@ -222,7 +222,7 @@ void MainWindow::SendRequest()
         ui->SimulatorLabel->setText("Simulator: " + state);
 
         if(angle < 0) { ui->AngleLabel->setText("Angle of rotation: " + QString::number(-angle) + " left"); }
-        else if(angle > 0) { ui->AngleLabel->setText("Angle of rotatiton: " + QString::number(angle) + " right"); }
+        else if(angle > 0) { ui->AngleLabel->setText("Angle of rotation: " + QString::number(angle) + " right"); }
         else { ui->AngleLabel->setText("Angle of rotation: " + QString::number(angle)); }
 
     //    if(degrees == "Celsius")
