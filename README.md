@@ -64,7 +64,7 @@ $ git clone https://github.com/DmitryKrizhik/Simulator
 Так будет выглядеть окнa после нажатия на "Stop Simulating":
 ![image](https://github.com/DmitryKrizhik/Software/assets/120208407/d57b288e-fdea-4344-9188-6a5a9325acc2)
 
-
+Ссылка на репозиторий Simulator:https://github.com/DmitryKrizhik/Simulator
 
 
 
