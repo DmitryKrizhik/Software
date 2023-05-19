@@ -6,6 +6,8 @@
 #include <QDebug>
 #include <thread>
 #include <QTimer>
+#include <QtGui/QTouchEvent>
+#include <QTouchEvent>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -22,7 +24,9 @@ public:
     static int pressureType;
     static int temperatureType;
     QTimer* timer = new QTimer(this);
-
+    bool event(QEvent *event);
+    bool touchEvent(QTouchEvent *event);
+    
 private slots:
 
 
